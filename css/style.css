@@ -37,7 +37,7 @@ body {
 }
 .section-title {
   color: var(--text-heading);
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
 }
 .section-subtitle {
@@ -180,4 +180,38 @@ header nav .nav-button button {
 
 .card-3 {
   background-image: linear-gradient(to left, transparent, #ffff);
+}
+
+/* My inspiration section Styles */
+
+.inspiration {
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.inspiration .section-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+  gap: 28px;
+}
+.inspiration .iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  padding: 16px;
+  border-radius: 16px;
+  width: 100%;
+}
+.inspiration .iframe iframe {
+  border-radius: 16px;
+  width: 100%;
+  height: 430px;
 }
