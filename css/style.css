@@ -57,8 +57,6 @@ button {
 }
 /* Header Styles */
 
-header {
-}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -71,8 +69,6 @@ header nav .logo h2 {
   font-weight: 800;
   letter-spacing: 0%;
   text-align: left;
-}
-header nav .nav-button {
 }
 header nav .nav-button button {
   padding: 8px 10px;
@@ -282,7 +278,6 @@ header nav .nav-button button:hover {
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 .current-target .cards .card h4 {
   font-size: 22px;
   font-weight: 800;
@@ -307,6 +302,7 @@ header nav .nav-button button:hover {
 }
 
 /* Next Target Styles */
+
 .next-target {
   display: flex;
   flex-direction: column;
@@ -368,6 +364,7 @@ header nav .nav-button button:hover {
 }
 
 /* Contact Section Styles */
+
 .contact {
   background: url("../assets/handshake.jpg"), rgba(0, 0, 0, 0.5);
   background-size: cover;
@@ -427,6 +424,7 @@ header nav .nav-button button:hover {
 }
 
 /* Footer Styles */
+
 footer {
   background: #fafafb;
 }
@@ -436,7 +434,6 @@ footer .wrapper {
   align-items: center;
   padding: 24px 0;
 }
-
 footer .right a img {
   width: 28px;
 }
@@ -500,7 +497,6 @@ footer .right a img {
   .next-target .section-head {
     padding: 30px 10px;
   }
-
   .next-target .cards {
     padding: 15px;
   }
