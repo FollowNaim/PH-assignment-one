@@ -48,8 +48,9 @@ a {
 }
 .section-subtitle {
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
+  line-height: 28px;
 }
 button {
   cursor: pointer;
@@ -190,8 +191,6 @@ header nav .nav-button button:hover {
   transition: all 0.5s ease;
 }
 
-.web-dev-container .card .right {
-}
 .web-dev-container .card .right .img {
   width: 220px;
 }
@@ -283,8 +282,7 @@ header nav .nav-button button:hover {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.current-target .cards .card .img img {
-}
+
 .current-target .cards .card h4 {
   font-size: 22px;
   font-weight: 800;
@@ -389,8 +387,7 @@ header nav .nav-button button:hover {
   gap: 20px;
   text-align: center;
 }
-.contact .wrapper h2 {
-}
+
 .contact .wrapper p {
   color: #cccccc;
   line-height: 26px;
@@ -421,7 +418,6 @@ header nav .nav-button button:hover {
   border-radius: 8px;
   border: 0;
   outline: 0;
-
   font-weight: 800;
 }
 .contact .wrapper .contact-form form button:hover {
@@ -440,15 +436,20 @@ footer .wrapper {
   align-items: center;
   padding: 24px 0;
 }
-footer .left h3 {
-}
-footer .right a {
-}
+
 footer .right a img {
   width: 28px;
 }
 
+/* Responsive Styles */
+
 @media (max-width: 672px) {
+  .section-title {
+    font-size: 21px;
+  }
+  .section-subtitle {
+    line-height: 25px;
+  }
   .banner {
     padding: 40px 20px;
   }
